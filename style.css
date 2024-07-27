@@ -1,0 +1,136 @@
+.circle {
+    transform: rotate(270deg);
+    border: 8px solid #000;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(227, 212, 191);
+  }
+  .agujas {
+    transform-origin: 10px center;
+    left: 46%;
+    bottom: 49%;
+    position: absolute;
+    border-radius: 10px;
+  }
+
+  .seg {
+    transform: rotate(0deg);
+    width: 120px;
+    height: 5px;
+    z-index: 10;
+    background-color: red;
+  }
+
+  .min {
+    transform: rotate(0deg);
+    width: 100px;
+    height: 5px;
+    background-color: black;
+  }
+
+  .hour {
+    transform: rotate(0deg);
+    width: 80px;
+    height: 5px;
+    background-color: rgb(33, 15, 15);
+  }
+
+  .doce {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 92%;
+    bottom: 46.5%;
+  }
+
+  .once {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 86%;
+    bottom: 69%;
+  }
+
+  .diez {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 69%;
+    bottom: 85%;
+  }
+
+  .dos {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 70.5%;
+    bottom: 6%;
+  }
+
+  
+  .ocho {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 26%;
+    bottom: 86%;
+  }
+
+  .nueve {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 48%;
+    bottom: 92%;
+  }
+
+  .cuatro {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 25%;
+    bottom: 8%;
+  }
+
+  .tres {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 48%;
+    bottom: 0%;
+  }
+
+  .siete {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 9%;
+    bottom: 70%;
+  }
+
+  .cinco {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 9%;
+    bottom: 23%;
+  }
+
+  .seis {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 3%;
+    bottom: 46.5%;
+  }
+
+  .uno {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 87%;
+    bottom: 23%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    left: 50%;
+    margin-bottom: 10px;
+  }
